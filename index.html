@@ -3,12 +3,24 @@
 <head>
   <title>Max Gilbreath</title>
   <link rel="icon" href="cup-line.png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!--<script src="my_jquery_functions.js"></script> This'll keep jqueries separate and easy to manage-->
+  <script>
+    $(document).ready(function(){
+      $("input").keypress(function(){
+        $(this).hide();
+      });
+    });
+    </script>
 </head>
 <body>
 <h1>WIP</h1>
 <p>I'm hosted with GitHub Pages.<br>
   If you're here for csci 360 project files, you can find them here.<br>
-  <a href="https://maxgilbreath.github.io/csci340lab1/">Lab 1</a>
+  <a href="https://maxgilbreath.github.io/csci340lab1/">Lab 1</a> <br>
+  Type the full word "cat" to win a prize here! ->
+  <input type="text" name="Win something!"><br>
+
 
 
 
