@@ -1,8 +1,19 @@
+a:link {
+  color: #f89513;
+}
+a:visited {
+  color: #f89513;
+}
+a:hover {
+  color: #ee8700;
+}
+a:active {
+  color: #9c5900;
+}
 h1 {
-    padding: 20px;
-    margin: 20px;
-    color: #000000;
-    background-color: #1fd699;
+    text-align: center;
+    color: #fdfdfd;
+    background-color: #222222;
   }
   h2 {
     padding: 15px;
@@ -11,31 +22,13 @@ h1 {
   ul{
     margin: 45px;
   }
-  p{
-    margin: 20px; 
-  }
-  #intro{
-    margin: 20px;
-    padding: 5px;
-  }
-  span {
-    background-color: #ffffff;
-  }
-  .middle {
-    text-align: center;
-    color: #000000;
-    background-color: #1fd699;
-    margin: 20px;
-    padding: 100px;
-  }
-  .container {
-    padding: 25px;
+  body{
+    background-color: #222222;
+    color: #bebebe;
 
-    position: relative;
+
   }
-  #outro{
-    text-align: center;
-    background-color: #ffffff;
-    margin: 5px;
-    padding: 20px;
+  p{
+    line-height: 1.8;
+
   }
