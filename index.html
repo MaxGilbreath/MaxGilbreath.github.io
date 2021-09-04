@@ -10,18 +10,20 @@
     $(document).ready(function(){
       $("input").keypress(function(){
         $(this).hide();
-      });
+       });
+      $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+     });
     });
     </script>
 </head>
 <body>
 <h1>WIP</h1>
 <p>I'm hosted with GitHub Pages.<br>
-  If you're here for csci 360 project files, you can find them here.<br>
-  <a href="https://maxgilbreath.github.io/csci340lab1/">Lab 1</a> <br>
   Type the full word "cat" to win a prize here! ->
   <input type="text" name="Win something!"><br>
-
+  <div id="flip">If you're here for csci 360 project files, click here</div>
+  <div id="panel"><a href="https://maxgilbreath.github.io/csci340lab1/">Lab 1</a></div>
 
 
 
