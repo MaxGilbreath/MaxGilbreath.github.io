@@ -11,24 +11,35 @@ a:active {
   color: #9c5900;
 }
 h1 {
-    text-align: center;
-    color: #fdfdfd;
-    background-color: #222222;
-  }
-  h2 {
-    padding: 15px;
-    margin: 20px;
-  }
-  ul{
-    margin: 45px;
-  }
-  body{
-    background-color: #222222;
-    color: #bebebe;
+  text-align: center;
+  color: #fdfdfd;
+  background-color: #222222;
+}
+h2 {
+  padding: 15px;
+  margin: 20px;
+}
+ul{
+  margin: 45px;
+}
+body{
+  background-color: #222222;
+  color: #bebebe;
 
 
-  }
-  p{
-    line-height: 1.8;
+}
+p{
+  line-height: 1.8;
 
-  }
+}
+#panel, #flip {
+  padding: 5.5px;
+  text-align: center;
+  background-color: #1f1f1f;
+  border: solid 1px #1a1a1a;
+}
+
+#panel {
+  padding: 10px;
+  display: none;
+}
