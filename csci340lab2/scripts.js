@@ -1,11 +1,12 @@
 $(document).ready(function() {
-    $('name').click(function() {
+    $('#name').click(function() {
       $.ajax({
-        dataType: "jsonp",
-        jsonpCallback: "processJSONPResponse",
-        url: "https://api.agify.io?name="+ name,
+        dataType: "json",
+        url: "https://api.agify.io?name="+ $('#username').val(),
         success: function(results) {
+          console.log(results);
           $('.test').text(results["age"]);
+          console.log($('#username').val());
         },
         error: function(xhr,status,error) {
           console.log(error);
@@ -14,14 +15,11 @@ $(document).ready(function() {
     });
     $.ajax({
       dataType: "json",
-      url: "https://random-d.uk/api",
+      url: "https://forza-api.tk/",
       success: function(results) {
-        console.log(results["url"]);
-        if (results["url"].endsWith(".jpg")) {
-          $('#duck').attr("src", "images/blank.jpg");
-        } else {
-          $('#duck').attr("src", results["url"]);
-        }
+        console.log(results["image"]);
+
+          $('#duck').attr("src", results["image"]);
       },
       error: function(xhr,status,error) {
         console.log(error);
