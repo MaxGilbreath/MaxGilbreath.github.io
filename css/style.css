@@ -1,1 +1,26 @@
+body {
+    background-color: rgb(215 228 194);
+    }
 
+h1 {
+    font-family: Majesti-Banner-Heavy;
+    font-size: 36px;
+    color: rgb(65 57 61);
+    } 
+h2 {
+    font-family: Majesti-Banner-Heavy;
+    font-size: 28px;
+    color: rgb(190 30 45);
+    }
+p {
+    font-family: Majesti-Banner-Light;
+    font-size: 16px;
+    color: rgb(65 57 61);
+
+    } 
+blockquote{
+    font-family: Majesti-Banner-Light;
+    font-size: 14px;
+    color: rgb(65 57 61);
+
+}
