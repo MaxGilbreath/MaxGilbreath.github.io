@@ -6,11 +6,13 @@ h1 {
     font-family: Majesti-Banner-Heavy;
     font-size: 36px;
     color: rgb(65 57 61);
+    text-align: center;
     } 
 h2 {
     font-family: Majesti-Banner-Heavy;
     font-size: 28px;
     color: rgb(190 30 45);
+    text-decoration: underline;
     }
 p {
     font-family: Majesti-Banner-Light;
@@ -24,3 +26,21 @@ blockquote{
     color: rgb(65 57 61);
 
 }
+ul {
+    list-style-type: none; 
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   }
+   li {
+    display: inline-block; float: none
+   }
+   li a {
+    color: rgb(255, 255, 255); /*this is the font color and it is white */ 
+    padding: 10px; /*this is the padding around the text which createsthat box */
+    background-color: rgb(65 57 61); /* this is the background color of thebox around the text */
+    }
+
+    wrapper {
+        width:90%;
+    }
