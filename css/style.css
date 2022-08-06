@@ -26,6 +26,11 @@ blockquote{
     color: rgb(65 57 61);
 
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 ul {
     list-style-type: none; 
    margin: 0;
@@ -36,9 +41,9 @@ ul {
     display: inline-block; float: none
    }
    li a {
-    color: rgb(255, 255, 255); /*this is the font color and it is white */ 
-    padding: 10px; /*this is the padding around the text which createsthat box */
-    background-color: rgb(65 57 61); /* this is the background color of thebox around the text */
+    color: rgb(255, 255, 255); 
+    padding: 10px; 
+    background-color: rgb(65 57 61); 
     }
 
     wrapper {
