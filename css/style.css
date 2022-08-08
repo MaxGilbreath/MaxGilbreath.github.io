@@ -13,12 +13,19 @@ h2 {
     font-size: 28px;
     color: rgb(190 30 45);
     text-decoration: underline;
+    text-align: center;
     }
 p {
     font-family: Majesti-Banner-Light;
     font-size: 16px;
     color: rgb(65 57 61);
-
+    text-align: center;
+    } 
+pf {
+    font-family: Majesti-Banner-Light;
+    font-size: 16px;
+    color: rgb(65 57 61);
+    text-align: center;
     } 
 blockquote{
     font-family: Majesti-Banner-Light;
@@ -36,17 +43,19 @@ ul {
    margin: 0;
    padding: 0;
    text-align: center;
-   }
-   li {
+}
+
+li {
     display: inline-block; 
     float: none;
-   }
-   li a {
-    color: rgb(255, 255, 255); 
-    padding: 10px; 
-    background-color: rgb(65 57 61); 
-    }
+}
 
-    wrapper {
-        width:90%;
-    }
+li a {
+color: rgb(255, 255, 255); 
+padding: 10px; 
+background-color: rgb(65 57 61); 
+}
+
+#wrapper {
+    width:90%;
+}
