@@ -1,64 +1,89 @@
-body {
+body/* Background for website */ {
     background-color: rgb(215 228 194);
     }
 
-h1 {
+h1 /* Heading for index page, largest heading */{
     font-family: Majesti-Banner-Heavy;
     font-size: 36px;
     color: rgb(65 57 61);
     text-align: center;
     } 
-h2 {
+
+h2 /* Smaller heading for most text */{
     font-family: Majesti-Banner-Heavy;
     font-size: 28px;
     color: rgb(190 30 45);
     text-decoration: underline;
     text-align: center;
     }
-p {
+
+p /* Formatting for most text */{
     font-family: Majesti-Banner-Light;
     font-size: 16px;
     color: rgb(65 57 61);
     text-align: center;
     } 
 
-pf {
+.index_statement /* Larger text for index page mission statement */{
     font-family: Majesti-Banner-Light;
-    font-size: 16px;
+    font-size: 20px;
     color: rgb(65 57 61);
     text-align: center;
-    } 
-blockquote{
+    }
+
+blockquote /* Blockquote formatting, currently only used in about.html */{
     font-family: Majesti-Banner-Light;
     font-size: 14px;
     color: rgb(65 57 61);
     text-align: center;
 
-}
-.center {
+    }
+
+.center /* Centering for images */{
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
+    }
 
-ul {
+ul /* List formatting, currently used for navbar URLs */{
    list-style-type: none; 
    margin: 0;
    padding: 0;
    text-align: center;
-}
+    }
 
-li {
+li /* Navbar formatting */{
     display: inline-block; 
     float: none;
-}
+    }
 
-li a {
-color: rgb(255, 255, 255); 
-padding: 10px; 
-background-color: rgb(65 57 61); 
-}
+li a /* Navbar button formatting */{
+    color: rgb(255, 255, 255); 
+    padding: 10px; 
+    background-color: rgb(65 57 61); 
+    }
 
-#wrapper {
+.sidebar /* Placing images in the sidebar */{
+    text-align: center;
+    float: right;
+    padding: 0 10px 0 20px;
+    }
+    
+.sidebar location_img /* Formatting images in the sidebar */{
+    height: 800px;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.round /* Class for rounding images */{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+#wrapper /* Wrapper formatting */{
     width:90%;
-}
+    }
